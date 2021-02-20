@@ -9,7 +9,7 @@ clone:
   depth: 1
 
 steps:
-  - name: spiral_kernel
+  - name: kernel
     image: ubuntu:latest
     environment:
       CI_CHANNEL_ID:
